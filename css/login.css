@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-image: url(../img/ban1.png);
+    background-position: -200px 70px;
+    background-repeat: no-repeat;
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 6px 14px -5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+}
+
+.head .logo {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0196bb;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+
+.login-wraper {
+    width: 320px;
+    height: 410px;
+    padding: 20px;
+    border: 1px solid #666;
+    margin: 20px auto;
+    margin-right: 160px;
+    position: relative;
+    background-color: #f5f5f5;
+    z-index: 3;
+    opacity: 1;
+}
+
+.login-wraper div {
+    width: 320px;
+    height: 40px;
+    border: 1px solid #999;
+    margin-bottom: 50px;
+}
+
+.login-wraper div input {
+    outline: none;
+    float: right;
+    border: 0px;
+    width: 270px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.login-wraper .username {
+    margin-top: 50px;
+}
+
+.login-wraper .username>i,
+.login-wraper .password>i {
+    float: left;
+    display: block;
+    width: 40px;
+    height: 40px;
+    /* background-color: #666; */
+    background: url(../img/login/user.png);
+    background-size: 40px;
+}
+
+.login-wraper .password>i {
+    background: url(../img/login/lock.png);
+    background-size: 40px;
+}
+
+.login-wraper .login input {
+    width: 100%;
+    cursor: pointer;
+    background-color: #00aed8;
+    color: #fff;
+}

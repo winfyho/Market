@@ -1,0 +1,233 @@
+html,
+body {
+    background-color: #fff;
+}
+
+.procedure {
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.procedure h1 {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    text-align: left;
+    padding: 0px 10px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 30px;
+    color: #00aed8;
+}
+
+.procedure .pro-pic {
+    position: absolute;
+    padding: 0px 20px 0px 5px;
+    height: 100%;
+    width: 760px;
+    background-image: url(../img/procedure.png);
+    background-repeat: no-repeat;
+    background-position: 0px -3px;
+    background-size: 760px 123px;
+    right: 0;
+}
+
+.wraper {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wraper>div {
+    width: 100%;
+}
+
+.wraper .address {
+    width: 100%;
+    height: 200px;
+}
+
+.wraper .address h2 {
+    font-size: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.wraper .address>ul>li {
+    float: left;
+    width: 235px;
+    height: 105px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.wraper .address>ul>li:nth-of-type(1) {
+    border: 2px solid #00aed8;
+}
+
+.wraper .address>ul>li h6 {
+    border-bottom: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px;
+}
+
+.wraper .address>ul>li span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.wraper .order>h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.wraper .order .caption {
+    width: 960px;
+    height: 40px;
+    padding: 0px 20px;
+    display: block;
+    line-height: 40px;
+    background: #f5f5f5;
+    color: #000;
+    border-top: 0;
+    position: relative;
+}
+
+.wraper .order .caption li {
+    float: left;
+}
+
+.wraper .order .caption li:nth-of-type(1) {
+    width: 200px;
+    text-align: center;
+}
+
+.wraper .order .caption li:nth-of-type(2) {
+    text-align: center;
+    width: 200px;
+}
+
+.wraper .order .caption li:nth-of-type(3) {
+    width: 168px;
+    padding-right: 80px;
+    text-align: right;
+}
+
+.wraper .order .caption li:nth-of-type(4) {
+    width: 150px;
+    text-align: center;
+}
+
+.wraper .order .caption li:nth-of-type(5) {
+    text-align: right;
+    width: 150px;
+}
+
+.wraper .order .order-detail {
+    padding: 10px;
+    height: 60px;
+    /* border: 1px solid #aaa; */
+    box-shadow: 0px 6px 14px -5px rgba(0, 0, 0, 0.5);
+}
+
+.wraper .order .order-detail li {
+    float: left;
+    height: 60px;
+    padding-top: 10px;
+    /* background-color: #aaa; */
+    margin-right: 1px;
+}
+
+.wraper .order .order-detail .order-img {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    background: url(../img/sale/kongtiao1.jpg) no-repeat;
+    background-size: 60px;
+}
+
+.wraper .order .order-detail .title {
+    width: 180px;
+    padding: 10px 10px
+}
+
+.wraper .order .order-detail .infor {
+    width: 200px;
+}
+
+.wraper .order .order-detail .price {
+    width: 200px;
+    text-align: center;
+}
+
+.wraper .order .order-detail .num {
+    width: 132px;
+    text-align: center;
+}
+
+.wraper .order .order-detail .subtotal {
+    width: 160px;
+    text-align: right;
+}
+
+.count {
+    bottom: 15px;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.count .orderitem {
+    width: 360px;
+    height: 80px;
+    padding: 20px 15px 0px 0px;
+    border: 2px solid #00aed8;
+    position: fixed;
+    bottom: 15px;
+    right: 50%;
+    margin-right: -309px;
+}
+
+.count .orderitem div {
+    width: 100%;
+    text-align: right;
+}
+
+.count .orderitem b {
+    color: #e4393c;
+    font-size: 24px
+}
+
+.count .orderitem em {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.count .orderitem span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.count .submit {
+    position: fixed;
+    bottom: 15px;
+    right: 50%;
+    margin-right: -490px;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #00aed8;
+}

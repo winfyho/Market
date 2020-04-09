@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/sale.css">
+    <link rel="stylesheet" href="css/right.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="head-wraper">
+            <ul class="left">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">username</a></li>
+                <li><a href="#">信息</a></li>
+
+            </ul>
+
+            <ul class="right">
+                <li><a href="#">我的空间</a></li>
+                <li><a href="shopcar.html">购物车</a></li>
+                <li><a href="#">收藏夹</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="nav">
+        <div class="box1">主题市场</div>
+        <ul class="main-nav">
+            <li><a href="#">数码产品</a></li>
+            <li><a href="#">百货超市</a></li>
+            <li><a href="#">女装</a></li>
+            <li><a href="#">男装</a></li>
+            <li><a href="#">实用好物</a></li>
+            <li><a href="#">电器城</a></li>
+            <li><a href="#">超值优惠</a></li>
+            <li><a href="#">优选精选</a></li>
+        </ul>
+    </div>
+
+    <div class="wraper">
+        <div class="detail">
+            <div class="img-wraper">
+                <div class="img"></div>
+                <ul class="img-list">
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h2>保友优电脑椅人体工学椅电竞椅网椅办公椅护腰护脊椎工程学椅子</h2>
+                <div class="price">
+                    <span>价格</span>
+                    <em>1999</em>
+                </div>
+                <div class="choose">
+                    <span>分类</span>
+                    <ul>
+                        <li>超大</li>
+                        <li>大号</li>
+                        <li>中号</li>
+                        <li>小号</li>
+                    </ul>
+                    <span>颜色</span>
+                    <ul>
+                        <li>黑色</li>
+                        <li>白色</li>
+                        <li>灰色</li>
+                    </ul>
+                </div>
+
+
+                <a href="order.html" class="buy">立即购买</a>
+                <a class="add-car">加入购物车</a>
+            </div>
+        </div>
+        <div class="right-con"></div>
+    </div>
+
+    <div class="right-wraper">
+        <ul>
+            <li>
+                <a href="#" class="right-box">我的信息</a>
+                <a href="#" class="my-icon"></a>
+            </li>
+            <li>
+                <a href="#" class="right-box">浏览记录</a>
+                <a href="#" class="history"></a>
+            </li>
+            <li>
+                <a href="shopcar.html" class="right-box">购物车</a>
+                <a href="shopcar.html" class="car">购物车</a></li>
+            <li>
+                <a href="#" class="right-box">收藏</a>
+                <a href="#" class="keep"></a>
+            </li>
+        </ul>
+
+        <a href="#"></a>
+
+    </div>
+</body>
+<script src="js/sale.js"></script>
+
+<script src="js/imgMagnifier.js"></script>
+<script>
+    var imgWraper = document.getElementsByClassName('img-wraper')[0].children[0];
+    imgMagnifier(imgWraper, "img/sale/kongtiao1.jpg")
+</script>
+<script src="js/right.js"></script>
+
+</html>

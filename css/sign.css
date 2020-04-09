@@ -1,0 +1,67 @@
+.sign-wraper {
+    position: relative;
+    width: 520px;
+    height: 515px;
+    padding: 40px 40px;
+    margin: 10px auto;
+    background-color: #f4f4f4;
+    border: 1px solid #aaa;
+}
+
+.sign-wraper em {
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    width: 80px;
+    display: block;
+    font-style: normal;
+    font-size: 16px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.sign-wraper input {
+    width: 400px;
+    height: 30px;
+    float: right;
+    outline: none;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 10px;
+}
+
+.sign-wraper .sex {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -285px;
+    top: 7px;
+    margin-right: 53px
+}
+
+.sign-wraper .pro-city select {
+    position: absolute;
+    margin-top: 50px;
+    height: 40px;
+    top: 210px;
+    left: 200px;
+}
+
+.sign-wraper .pro-city select:nth-of-type(1) {
+    left: 50px;
+}
+
+.sign-wraper .sign {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 150px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    padding: 0px;
+    background-color: #0196bb;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,361 @@
+/* logo */
+
+.logo {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.logo .logo-pic {
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-image: url(../img/logo.jpg);
+}
+
+.logo .main-pic {
+    float: right;
+    width: 900px;
+    height: 100%;
+    background-image: url(../img/mainpic.jpg);
+    background-size: 100% 100%;
+}
+
+
+/* 主体轮播图 */
+
+.wraper {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.wraper .banner {
+    position: relative;
+    width: 900px;
+    height: 455px;
+}
+
+.wraper .banner ul {
+    float: left;
+    width: 3600px;
+    height: 455px;
+    position: relative;
+    left: 0px;
+    transition: all 2s;
+}
+
+.wraper .banner ul li {
+    float: left;
+    width: 900px;
+    height: 455px;
+    background-size: 900px 455px;
+    background-repeat: no-repeat;
+}
+
+.wraper .banner .banner-box li:nth-of-type(1) {
+    background-image: url(../img/ban1.png);
+    background-position: 0px 0px;
+}
+
+.wraper .banner .banner-box li:nth-of-type(2) {
+    background-image: url(../img/ban2.webp);
+}
+
+.wraper .banner .banner-box li:nth-of-type(3) {
+    background-image: url(../img/ban3.webp);
+}
+
+.wraper .banner .banner-box li:nth-of-type(4) {
+    background-image: url(../img/ban4.webp);
+}
+
+.wraper .banner .num-box {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 10px;
+    left: 380px;
+}
+
+.wraper .banner .num-box li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+}
+
+
+/* 左侧导航栏 */
+
+.wraper .left-nav {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 200px;
+    opacity: 0.7;
+}
+
+.wraper .left-nav ul li a {
+    display: block;
+    width: 150px;
+    padding: 0px 25px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #666;
+    color: #fff;
+    font-weight: 500;
+}
+
+.wraper .left-nav ul li a:hover {
+    background-color: #fff;
+    color: rgb(63, 9, 211);
+}
+
+
+/* 右侧用户模块 */
+
+.wraper .user {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    height: 455px;
+    background-color: #f5f5f5;
+}
+
+.wraper .user .user-box {
+    height: 154px;
+}
+
+.wraper .user .user-box .pic1 {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    position: relative;
+    left: 150px;
+    margin-left: -30px;
+    top: 20px;
+    background-image: url(../img/user.png);
+    background-size: 100%;
+}
+
+.wraper .user .user-box a {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    text-decoration: underline;
+    left: 110px;
+    color: #444;
+}
+
+.wraper .user .user-box .login {
+    text-decoration: none;
+    color: #555;
+    margin-right: 20px;
+}
+
+
+/* 右侧功能模块 */
+
+.wraper .user .function ul li {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.wraper .user .function ul li i {
+    display: block;
+    width: 100%;
+    height: 75px;
+    background-image: url(../img/话费.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 25px 10px;
+}
+
+.wraper .user .function ul li:nth-of-type(2) i {
+    background-image: url(../img/统计报表.png);
+}
+
+.wraper .user .function ul li:nth-of-type(3) i {
+    background-image: url(../img/订单.png);
+}
+
+.wraper .user .function ul li:nth-of-type(4) i {
+    background-image: url(../img/wuliu.png);
+}
+
+.wraper .user .function ul li:nth-of-type(5) i {
+    background-image: url(../img/票务系统.png);
+}
+
+.wraper .user .function ul li:nth-of-type(6) i {
+    background-image: url(../img/gift.png);
+}
+
+.wraper .user .function ul li:nth-of-type(7) i {
+    background-image: url(../img/yue.png);
+}
+
+.wraper .user .function ul li:nth-of-type(8) i {
+    background-image: url(../img/message.png);
+}
+
+.wraper .user .function ul li:nth-of-type(9) i {
+    background-image: url(../img/setting.png);
+}
+
+.wraper .user .function ul li a {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    width: 100%;
+    height: 25px;
+    color: #999;
+    text-align: center;
+}
+
+.wraper .user .function ul li:hover {
+    background-color: #fff;
+    color: #f70;
+}
+
+
+/* 排行榜  领卷中心  推荐 */
+
+.wraper .event ul li {
+    float: left;
+    width: 390px;
+    height: 450px;
+    background: #fff;
+    margin: 20px 15px 25px 0px;
+}
+
+.wraper .event ul li h2 {
+    width: 100%;
+    height: 44px;
+    padding: 0px 20px;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222;
+    line-height: 44px;
+}
+
+
+/* 排行榜 */
+
+.wraper .event ul .order div,
+.wraper .event ul .coupon div {
+    width: 370px;
+    height: 80px;
+    padding: 10px 10px;
+}
+
+.wraper .event ul .order div i {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+    background-image: url(../img/milk.webp);
+    background-size: 80px;
+}
+
+.wraper .event ul .order div span {
+    display: inline-block;
+    font-size: 30px;
+    margin: 8px 15px;
+}
+
+.wraper .event ul .order div a {
+    padding-top: 7px;
+    color: #442244;
+    width: 240px;
+    float: right;
+}
+
+.wraper .event ul .order div a:hover {
+    color: rgb(63, 9, 211);
+}
+
+
+/* 领卷中心 */
+
+.wraper .event ul .coupon div .img {
+    display: block;
+    float: left;
+    width: 330px;
+    height: 85px;
+    background-image: url(../img/coupon.png);
+    background-size: 350px 95px;
+    background-repeat: no-repeat;
+}
+
+.wraper .event ul .coupon div .more {
+    display: block;
+    float: right;
+    width: 20px;
+    height: 65px;
+    padding: 10px 10px;
+    background-color: #f6f6f6;
+    font-size: 12px;
+    color: #444;
+    line-height: 13px;
+}
+
+
+/* 推荐好物 */
+
+.wraper .event ul .recommend {
+    padding: 0px 20px;
+    width: 350px;
+}
+
+.wraper .event ul .recommend a {
+    display: block;
+}
+
+.wraper .event ul .recommend .img1 {
+    background-image: url(../img/img1.webp);
+    width: 350px;
+    height: 128px;
+    background-size: 370px;
+    margin-top: 10px;
+}
+
+.wraper .event ul .recommend .img-box {
+    width: 105px;
+    height: 105px;
+    background-size: 105px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 10px;
+}
+
+.wraper .event ul .recommend .img2 {
+    background-image: url(../img/imgbox1.jpg);
+}
+
+.wraper .event ul .recommend .img3 {
+    background-image: url(../img/imgbox2.jpg);
+}
+
+.wraper .event ul .recommend .img4 {
+    background-image: url(../img/imgbox3.png);
+}
+
+.wraper .event ul .recommend .text {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    color: #555;
+}

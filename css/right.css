@@ -1,0 +1,86 @@
+.right-wraper {
+    width: 35px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #00aed8;
+}
+
+.right-wraper ul {
+    width: 35px;
+    position: relative;
+    top: 180px;
+}
+
+.right-wraper ul li {
+    display: block;
+    position: relative;
+    width: 35px;
+    /* height: 80px; */
+    background-color: #00aed8;
+    margin-bottom: 5px;
+    /* border: 1px solid #fff; */
+}
+
+.right-wraper ul li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 0px 8px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 2px 2px;
+}
+
+.right-wraper ul li a:hover {
+    background-color: #015b72;
+}
+
+.right-wraper ul li .my-icon {
+    height: 35px;
+    background-image: url(../img/头像.jpg);
+    background-size: 35px 35px;
+    background-position: 0px 0px;
+}
+
+.right-wraper ul li .history {
+    height: 35px;
+    background-image: url(../img/历史.png);
+}
+
+.right-wraper ul li .car {
+    padding: 35px 8px 0px 8px;
+    width: 19px;
+    height: 75px;
+    background-image: url(../img/购物车.png);
+    border-bottom: 1px solid #fff;
+}
+
+.right-wraper ul li .keep {
+    height: 35px;
+    background-image: url(../img/收藏.png);
+}
+
+.right-wraper>a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/top.png);
+    background-size: 35px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.right-wraper ul li .right-box {
+    position: absolute;
+    right: 36px;
+    width: 70px;
+    height: 35px;
+    background-color: #00aed8;
+    line-height: 35px;
+    text-align: center;
+    display: none;
+    border-radius: 8px;
+}

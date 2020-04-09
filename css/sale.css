@@ -1,0 +1,164 @@
+html,
+body {
+    background-color: #fff;
+}
+
+em,
+i,
+a {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.wraper {
+    width: 1200px;
+    height: 800px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #f6f6f6;
+}
+
+.wraper .detail {
+    float: left;
+    width: 1000px;
+}
+
+
+/* 图片区域 */
+
+.wraper .detail .img-wraper {
+    float: left;
+    width: 420px;
+}
+
+.wraper .detail .img-wraper .img {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    z-index: 3;
+    background-image: url(../img/sale/kongtiao1.jpg);
+    background-size: 420px;
+}
+
+
+/* 其他图片 */
+
+.wraper .detail .img-wraper .img-list {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-left: -30px;
+}
+
+.wraper .detail .img-wraper .img-list>li {
+    display: inline-block;
+    width: 60px;
+    height: 100%;
+    margin: 12px 5px 0px 0px;
+    background-color: #ccc;
+    border: 2px solid #bbb;
+}
+
+.wraper .detail .img-wraper .img-list>li:nth-of-type(1) {
+    background: url(../img/sale/kongtiao1.jpg) no-repeat;
+    background-size: 60px;
+}
+
+.wraper .detail .img-wraper .img-list>li:nth-of-type(2) {
+    background: url(../img/sale/kongtiao2.jpg) no-repeat;
+    background-size: 60px;
+}
+
+.wraper .detail .img-wraper .img-list>li:hover {
+    border: 2px solid #00aed8;
+}
+
+.wraper .content {
+    width: 530px;
+    float: right;
+}
+
+
+/* 标题 */
+
+.wraper .content h2 {
+    width: 100%;
+    font-size: 22px;
+}
+
+.wraper .content span {
+    display: block;
+    float: left;
+    width: 66px;
+    height: 44px;
+    line-height: 44px;
+}
+
+
+/* 价格 */
+
+.wraper .content .price span {
+    height: 80px;
+    line-height: 80px;
+}
+
+.wraper .content .price em {
+    display: inline-block;
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+    color: #e4393c;
+}
+
+
+/* 分类 */
+
+.wraper .content .choose ul {
+    display: inline-block;
+    width: 460px;
+    margin-bottom: 10px;
+}
+
+.wraper .content .choose ul li {
+    width: auto !important;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.wraper .content .choose ul li:nth-of-type(1) {
+    border: 1px solid #e4393c;
+}
+
+
+/* 当前选择类别 */
+
+.wraper .content .selected {
+    width: 500px;
+    height: 30px;
+    padding: 20px 0px 10px 30px;
+}
+
+.wraper .content>a {
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    padding: 0px 25px;
+    background-color: #e4393c;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.wraper .content>a.buy {
+    background-color: #fff;
+    color: #e4393c;
+    border: 1px solid #e4393c;
+}
